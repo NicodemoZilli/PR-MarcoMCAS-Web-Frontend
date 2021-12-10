@@ -40,6 +40,13 @@ function Visible(input) {
     //Eliminamos resultados al cerrar form
     document.querySelector("#resp"+input.name.toUpperCase()).innerHTML = "";
 
+    // Elimina formulario dinamico
+    if(document.querySelectorAll(".output")){
+        let outputs = document.querySelectorAll(".output");
+        for(i=0; i<outputs.length;i++){
+          outputs[i].innerHTML='';
+        }
+    }
   }
 }
 
