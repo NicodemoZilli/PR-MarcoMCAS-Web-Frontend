@@ -1,5 +1,7 @@
 function AddFP(inp){
-  document.querySelector('#outputFP').innerHTML='';
+  let output = document.querySelector('#outputFP');
+      output.innerHTML='';
+      
   for(i=0; i<inp.value; i++){
     let title = document.createElement('span');
         title.innerHTML = 'Para la clase '+(i+1)+':';
@@ -50,7 +52,6 @@ function AddFP(inp){
         div.appendChild(dc);
         div.appendChild(br);
 
-    let output = document.querySelector('#outputFP');
         output.appendChild(title);
         output.appendChild(div);
   }

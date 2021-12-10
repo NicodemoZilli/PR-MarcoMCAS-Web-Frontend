@@ -69,10 +69,10 @@
             <form id="formFP">
               <div class="inputs">
                 <p>Total de Clases:</p>
-                <input type="number" min="0" step="1" placeholder="TC" name="FPTC" oninput="Data(this)" onchange="AddFP(this)">
+                <input type="number" min="0" step="1" placeholder="TC" name="FPTC" oninput="Data(this); AddFP(this);">
               </div>
               <br>
-              <div id="outputFP">
+              <div class='output' id="outputFP">
 
               </div>
             </form>
