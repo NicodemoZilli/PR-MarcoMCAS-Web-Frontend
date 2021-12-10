@@ -5,7 +5,7 @@
 
 <header>
       <div class="contenedor">
-        <a href="../" class='logo'><img src="media/lcenidet.png" alt=""></a>
+        <a href="index.php" class='logo'><img src="media/lcenidet.png" alt=""></a>
         <input type="checkbox" id="menu-bar">
         <label class="icon-menu" for="menu-bar"></label>
         <nav class="menu">
