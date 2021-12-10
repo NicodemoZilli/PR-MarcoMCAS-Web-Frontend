@@ -2,6 +2,7 @@
   include_once 'html/head.html';
 ?>
 
+<script src="js/proedo.js?v=<?php echo time();?>" charset="utf-8"></script>
 
 <header>
       <div class="contenedor">
@@ -43,14 +44,13 @@
           <div>
             <form id="formPMFP">
               <div class="inputs">
-                  <p>Funciones No <i>"public" </i>:</p>
-                  <input type="number" min="0" step="1" placeholder="FNP" name="PMFPFNP" oninput="Data(this)">
+                  <p>N&uacute;mero total de Clases:</p>
+                  <input type="number" min="0" step="1" placeholder="NTC" name="PMFPNTC" oninput="Data(this); AddPMFP(this);">
               </div>
-              <div class="inputs">
-                <p>Total de Funciones:</p>
-                <input type="number" min="0" step="1" placeholder="TF" name="PMFPTF" oninput="Data(this)">
-              </div>
+              <br>
+              <div class='output' id="outputPMFP">
 
+              </div>
             </form>
           </div>
         <div class="result">
@@ -68,16 +68,12 @@
           <div>
             <form id="formPMFPR">
               <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“private”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFP" name="PMFPRPMFP" oninput="Data(this)">
+                  <p>N&uacute;mero total de Jerarqu&iacute;as:</p>
+                  <input type="number" min="0" step="1" placeholder="NTJ" name="PMFPRNTJ" oninput="Data(this); AddPMFPR(this);">
               </div>
-              <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“protected”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFPR" name="PMFPRPMFPR" oninput="Data(this)">
-              </div>
-              <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“friendly”</i> o <i>“default”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFF" name="PMFPRPMFF" oninput="Data(this)">
+              <br>
+              <div class='output' id="outputPMFPR">
+
               </div>
             </form>
           </div>
@@ -96,16 +92,12 @@
           <div>
             <form id="formPMFF">
               <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“private”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFP" name="PMFFPMFP" oninput="Data(this)">
+                <p>N&uacute;mero total de funciones <i>“friendly”</i> :</p>
+                <input type="number" min="0" step="1" placeholder="FF" name="PMFFFF" oninput="Data(this)">
               </div>
               <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“protected”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFF" name="PMFFPMFF" oninput="Data(this)">
-              </div>
-              <div class="inputs">
-                <p>Grado de protección modular de funciones <i>“friendly”</i> o <i>“default”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="PMFF" name="PMFFPMFF" oninput="Data(this)">
+                <p>N&uacute;mero total de funciones :</p>
+                <input type="number" min="0" step="1" placeholder="NTF" name="PMFFNTF" oninput="Data(this)">
               </div>
             </form>
           </div>
