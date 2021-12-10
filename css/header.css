@@ -1,0 +1,160 @@
+/* header basico */
+
+header{
+  width: 100%;
+  height: 80px;
+  color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+}
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+header .contenedor{
+  display: table;
+}
+
+@media (min-width:1024px){
+  .contenedor{
+    width: 1000px;
+  }
+}
+
+.logo img{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  filter: contrast(0) hue-rotate(0) saturate(0) brightness(100);
+}
+
+#menu-bar{
+  display: none;
+}
+
+header label{
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.menu{
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background: rgba(51,51,51,0.9);
+  transition: all 0.5s;
+  transform: translateX(-100%);
+  overflow-y: scroll;
+}
+.menu a{
+  display: block;
+  color: #fff;
+  height: 50px;
+  text-decoration: none;
+  padding: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.menu a:hover{
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+.menu a.active,
+.menu a:hover {
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+#menu-bar:checked ~ .menu{
+  transform: translateX(0%);
+}
+
+@media (min-width:1024px){
+  .menu{
+    position: static;
+    width: auto;
+    height: 80px;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+  }
+  .menu a{
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    height: 40px;
+  }
+  header label{
+    display: none;
+  }
+  .logo img{
+    max-width: 20%;
+  }
+}
+/* header moonlight
+
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+
+header ul li a.active,
+header ul li a:hover {
+  background: #fff;
+  color: #2b1055;
+}
+
+.logo img{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  filter: contrast(0) hue-rotate(0) saturate(0) brightness(100);
+}
+*/
