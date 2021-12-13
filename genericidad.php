@@ -1,8 +1,6 @@
 <?php
   include_once 'html/head.html';
 ?>
-
-
 <header>
       <div class="contenedor">
         <a href="index.php" class='logo'><img src="media/lcenidet.png" alt=""></a>
