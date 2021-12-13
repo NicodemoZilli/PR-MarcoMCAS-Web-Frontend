@@ -61,9 +61,9 @@ header label{
 .menu a{
   display: block;
   color: #fff;
-  height: 50px;
+  height: 30px;
   text-decoration: none;
-  padding: 40px;
+  padding: 30px;
   border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 .menu a:hover{
