@@ -37,8 +37,8 @@
   <div class="forms">
 
     <div class="hidden form" id="LCOM">
-      <h1>PMFP</h1>
-      <i>Factor de Proteccion Modular</i>
+      <h1>LCOM</h1>
+      <i>Carencia de Cohesion</i>
       <div class="formContainer">
           <div>
             <form id="formLCOM">
@@ -66,7 +66,7 @@
 
     <div class="hidden form" id="RFC">
       <h1>RFC</h1>
-      <i>Total de Protecion Modular</i>
+      <i>Respuesta para una Clase</i>
       <div class="formContainer">
           <div>
             <form id="formRFC">
