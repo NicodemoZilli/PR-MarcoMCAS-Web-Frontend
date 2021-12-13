@@ -1,5 +1,7 @@
-const urlbase = 'http://mpndev.nz:9009';
+//const urlbase = 'http://mpndev.nz:9009';
 //const urlbase = 'http://nicodemozilli.systems:9009';
+
+const urlbase = 'http://localhost:9009';
 
 function STATUS(){
     makeRequest(
