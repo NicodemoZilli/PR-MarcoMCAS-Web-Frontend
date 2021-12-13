@@ -39,7 +39,7 @@
 
     <div class="hidden form" id="PMFP">
       <h1>PMFP</h1>
-      <i>Factor de Proteccion Modular</i>
+      <i>Factor de Proteccion Modular de Funciones Privadas</i>
       <div class="formContainer">
           <div>
             <form id="formPMFP">
@@ -63,7 +63,7 @@
 
     <div class="hidden form" id="PMFPR">
       <h1>PMFPR</h1>
-      <i>Total de Protecion Modular</i>
+      <i>Factor de Proteccion Modular de Funciones Protegidas</i>
       <div class="formContainer">
           <div>
             <form id="formPMFPR">
@@ -87,7 +87,7 @@
 
     <div class="hidden form" id="PMFF">
       <h1>PMFF</h1>
-      <i>Total de Protecion Modular</i>
+      <i>Factor de Proteccion Modular de Funciones Friendly</i>
       <div class="formContainer">
           <div>
             <form id="formPMFF">
