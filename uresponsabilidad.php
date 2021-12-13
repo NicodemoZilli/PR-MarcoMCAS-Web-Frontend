@@ -71,42 +71,18 @@
           <div>
             <form id="formRFC">
               <div class="inputs">
-                  <p>N&uacute;mero total de m&eacute;todos en la secuencia:</p>
-                  <input type="number" min="0" step="1" placeholder="n" name="RFCn" oninput="Data(this)">
+                  <p>N&uacute;mero de m&eacute;todos locales:</p>
+                  <input type="number" min="0" step="1" placeholder="NML" name="RFCNML" oninput="Data(this)">
               </div>
               <div class="inputs">
-                  <p>N&uacute;mero total de m&eacute;todos en el modulo o paquete:</p>
-                  <input type="number" min="0" step="1" placeholder="m" name="RFCm" oninput="Data(this)">
+                  <p>N&uacute;mero de m&eacute;todos remotos:</p>
+                  <input type="number" min="0" step="1" placeholder="NMR" name="RFCNMR" oninput="Data(this)">
               </div>
             </form>
           </div>
         <div class="result">
           <p>Resultado: </p>
           <h1 id="respRFC"></h1>
-        </div>
-      </div>
-      <br>
-    </div>
-
-    <div class="hidden form" id="PMFF">
-      <h1>PMFF</h1>
-      <i>Total de Protecion Modular</i>
-      <div class="formContainer">
-          <div>
-            <form id="formPMFF">
-              <div class="inputs">
-                <p>N&uacute;mero total de funciones <i>“friendly”</i> :</p>
-                <input type="number" min="0" step="1" placeholder="FF" name="PMFFFF" oninput="Data(this)">
-              </div>
-              <div class="inputs">
-                <p>N&uacute;mero total de funciones :</p>
-                <input type="number" min="0" step="1" placeholder="NTF" name="PMFFNTF" oninput="Data(this)">
-              </div>
-            </form>
-          </div>
-        <div class="result">
-          <p>Resultado: </p>
-          <h1 id="respPMFF"></h1>
         </div>
       </div>
       <br>
