@@ -21,6 +21,8 @@
 </header>
 
 <div class="content">
+  <!-- Indicador de la categoria de las metricas -->
+  <input type="hidden" id="categoria" value="Independencia">
 
   <h1 style=" width: 100vw; margin-top: 30vh; color: #fff; text-align: center;">Una disculpa, esta p&aacute;gina a&uacute;n se encuentra en construcci&oacute;n</h1>
 
