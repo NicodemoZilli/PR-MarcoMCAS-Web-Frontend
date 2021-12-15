@@ -2,7 +2,7 @@
   include_once 'html/head.html';
 ?>
 
-<link rel="stylesheet" href="css/index.css?v=2">
+<link rel="stylesheet" href="css/index.css?v=4">
 
 <header>
       <div class="contenedor">
@@ -27,12 +27,39 @@
       <h1>Bienvenido al Marco de Metricas de Calidad de Arquitecturas de Software</h1>
       <h1>CENIDET 2021</h1>
       <br><br>
-      <h2>Diagrama de Ishikawa Metricas de Calidad</h2>
-      <br>
-      <img src="media/ishikawa.png" alt="">
     </div>
 
+    <div class="diagramas">
+      <h2>Diagrama de Ishikawa Metricas de Calidad</h2>
+      <br>
+      <a href="media/diagramas/ishikawa.png" target="_blank">
+        <img src="media/diagramas/ishikawa.png" alt="">
+      </a>
+      <br><br>
+      <h2>Diagrama de Clases</h2>
+      <br>
+      <a href="media/diagramas/DCM-Composite-Completo.png" target="_blank">
+        <img src="media/diagramas/DCM-Composite-Completo.png" alt="">
+      </a>
+      <br><br>
+      <h2>Diagramas de Casos de Uso</h2>
+      <br>
+      <a href="media/diagramas/DCUReuso.png" target="_blank">
+        <img src="media/diagramas/DCUReuso.png" alt="">
+      </a>
+      <a href="media/diagramas/DCUModularidad.png" target="_blank">
+        <img src="media/diagramas/DCUModularidad.png" alt="">
+      </a>
+      <a href="media/diagramas/DCUEncapsulamiento.png" target="_blank">
+        <img src="media/diagramas/DCUEncapsulamiento.png" alt="">
+      </a>
+      <a href="media/diagramas/DCUAutonomia.png" target="_blank">
+        <img src="media/diagramas/DCUAutonomia.png" alt="">
+      </a>
 
+    </div>
+
+<br><br>
 <?php
       include_once 'html/footer.html';
 ?>
