@@ -38,8 +38,14 @@
       <br><br>
       <h2>Diagrama de Clases</h2>
       <br>
+      <h3>Servidor en Consola</h3>
       <a href="media/diagramas/DCM-Composite-Completo.png" target="_blank">
         <img src="media/diagramas/DCM-Composite-Completo.png" alt="">
+      </a>
+      <br>
+      <h3>Servidor con GUI</h3>
+      <a href="media/diagramas/DCM-Composite-GUI-Completo.png" target="_blank">
+        <img src="media/diagramas/DCM-Composite-GUI-Completo.png" alt="">
       </a>
       <br><br>
       <h2>Diagramas de Casos de Uso</h2>
