@@ -24,7 +24,7 @@
 </header>
 
     <div class="title">
-      <h1>Bienvenido al Marco de Metricas de Calidad de Arquitecturas de Software</h1>
+      <h1>Bienvenido al Marco de Servicios de Cálculo de Calidad de Arquitecturas de Software</h1>
       <h1>CENIDET 2021</h1>
       <br><br>
     </div>
